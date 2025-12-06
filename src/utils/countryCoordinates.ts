@@ -1,34 +1,34 @@
 // Coordinates for country markers aligned to outline map (1000x500 viewBox)
 export const COUNTRY_COORDINATES: Record<string, { x: number; y: number; name: string }> = {
   // North America
-  CA: { x: 340, y: 180, name: 'Canada' },
-  US: { x: 340, y: 290, name: 'United States' },
-  MX: { x: 320, y: 400, name: 'Mexico' },
-  
+  CA: { x: 200, y: 150, name: 'Canada' },
+  US: { x: 220, y: 280, name: 'United States' },
+  MX: { x: 180, y: 380, name: 'Mexico' },
+
   // British Isles
-  GB: { x: 520, y: 210, name: 'United Kingdom' },
-  
+  GB: { x: 510, y: 200, name: 'United Kingdom' },
+
   // Western Europe
-  FR: { x: 555, y: 265, name: 'France' },
-  ES: { x: 515, y: 320, name: 'Spain' },
-  PT: { x: 485, y: 325, name: 'Portugal' },
-  IT: { x: 595, y: 310, name: 'Italy' },
-  
+  FR: { x: 540, y: 260, name: 'France' },
+  ES: { x: 500, y: 350, name: 'Spain' },
+  PT: { x: 465, y: 355, name: 'Portugal' },
+  IT: { x: 580, y: 320, name: 'Italy' },
+
   // Central Europe
-  DE: { x: 585, y: 225, name: 'Germany' },
-  NL: { x: 565, y: 205, name: 'Netherlands' },
-  BE: { x: 560, y: 220, name: 'Belgium' },
-  CH: { x: 575, y: 265, name: 'Switzerland' },
-  AT: { x: 610, y: 265, name: 'Austria' },
-  CZ: { x: 605, y: 235, name: 'Czech Republic' },
-  
+  DE: { x: 570, y: 230, name: 'Germany' },
+  NL: { x: 545, y: 205, name: 'Netherlands' },
+  BE: { x: 540, y: 225, name: 'Belgium' },
+  CH: { x: 560, y: 270, name: 'Switzerland' },
+  AT: { x: 600, y: 270, name: 'Austria' },
+  CZ: { x: 595, y: 240, name: 'Czech Republic' },
+
   // Northern Europe (Scandinavia)
-  NO: { x: 570, y: 120, name: 'Norway' },
-  SE: { x: 605, y: 135, name: 'Sweden' },
-  DK: { x: 580, y: 195, name: 'Denmark' },
-  FI: { x: 640, y: 125, name: 'Finland' },
-  
+  NO: { x: 565, y: 110, name: 'Norway' },
+  SE: { x: 600, y: 125, name: 'Sweden' },
+  DK: { x: 570, y: 185, name: 'Denmark' },
+  FI: { x: 640, y: 100, name: 'Finland' },
+
   // Eastern/Southern Europe
-  PL: { x: 630, y: 225, name: 'Poland' },
-  GR: { x: 650, y: 330, name: 'Greece' },
+  PL: { x: 625, y: 230, name: 'Poland' },
+  GR: { x: 650, y: 360, name: 'Greece' },
 };
