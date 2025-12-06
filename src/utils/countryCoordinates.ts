@@ -6,7 +6,7 @@ export const COUNTRY_COORDINATES: Record<string, { x: number; y: number; name: s
   MX: { x: 300, y: 400, name: 'Mexico' },
 
   // British Isles
-  GB: { x: 690, y: 210, name: 'United Kingdom' },
+  GB: { x: 690, y: 210, name: 'United Kingdom (Great Britain)' },
 
   // Western Europe
   FR: { x: 825, y: 280, name: 'France' },
