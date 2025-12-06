@@ -16,17 +16,17 @@ export const COUNTRY_COORDINATES: Record<string, { x: number; y: number; name: s
 
   // Central Europe
   DE: { x: 895, y: 270, name: 'Germany' },
-  NL: { x: 830, y: 205, name: 'Netherlands' },
+  NL: { x: 860, y: 279, name: 'Netherlands' },
   BE: { x: 845, y: 275, name: 'Belgium' },
   CH: { x: 895, y: 315, name: 'Switzerland' },
   AT: { x: 890, y: 280, name: 'Austria' },
-  CZ: { x: 895, y: 295, name: 'Czech Republic' },
+  CZ: { x: 918, y: 295, name: 'Czech Republic' },
 
   // Northern Europe (Scandinavia)
   NO: { x: 890, y: 210, name: 'Norway' },
   SE: { x: 930, y: 210, name: 'Sweden' },
   DK: { x: 895, y: 255, name: 'Denmark' },
-  FI: { x: 880, y: 210,  name: 'Finland' },
+  FI: { x: 960, y: 200,  name: 'Finland' },
 
   // Eastern/Southern Europe
   PL: { x: 930, y: 255, name: 'Poland' },
