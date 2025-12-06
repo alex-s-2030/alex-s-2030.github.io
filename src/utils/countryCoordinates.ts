@@ -15,7 +15,7 @@ export const COUNTRY_COORDINATES: Record<string, { x: number; y: number; name: s
   IT: { x: 895, y: 340, name: 'Italy' },
 
   // Central Europe
-  DE: { x: 860, y: 230, name: 'Germany' },
+  DE: { x: 895, y: 270, name: 'Germany' },
   NL: { x: 830, y: 205, name: 'Netherlands' },
   BE: { x: 845, y: 275, name: 'Belgium' },
   CH: { x: 895, y: 315, name: 'Switzerland' },
@@ -24,8 +24,8 @@ export const COUNTRY_COORDINATES: Record<string, { x: number; y: number; name: s
 
   // Northern Europe (Scandinavia)
   NO: { x: 890, y: 210, name: 'Norway' },
-  SE: { x: 830, y: 210, name: 'Sweden' },
-  DK: { x: 895, y: 210, name: 'Denmark' },
+  SE: { x: 930, y: 210, name: 'Sweden' },
+  DK: { x: 895, y: 255, name: 'Denmark' },
   FI: { x: 880, y: 210,  name: 'Finland' },
 
   // Eastern/Southern Europe
