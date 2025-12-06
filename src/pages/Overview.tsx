@@ -1,4 +1,5 @@
 import { useMemo } from 'react';
+import { Link } from 'wouter';
 import { mortalityData } from '@/data/mockData';
 import { calculateMetricSummary, getLatestYear, formatNumber } from '@/utils/dataUtils';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -213,20 +214,20 @@ export function Overview() {
               to understand what drives mortality patterns and how interventions can save lives.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
+              <Link
                 href="/dashboard"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
               >
                 View Dashboard
                 <TrendingUp className="h-4 w-4" />
-              </a>
-              <a 
+              </Link>
+              <Link
                 href="/insights"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-medium hover:bg-secondary/90 transition-colors"
               >
                 Policy Insights
                 <Lightbulb className="h-4 w-4" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
